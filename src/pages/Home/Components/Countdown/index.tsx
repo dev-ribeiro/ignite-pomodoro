@@ -1,7 +1,7 @@
 /* eslint-disable no-undef */
 import { differenceInSeconds } from 'date-fns'
 import { useContext, useEffect } from 'react'
-import { CycleContext } from '../..'
+import { CycleContext } from '../../../../contexts/CycleContext'
 import { CountdownContainer, Separator } from './Styles'
 
 export function Countdown(): JSX.Element {
